@@ -1,5 +1,5 @@
 pass=max
-admin=maxh98ker
+admin=max
 read -p $'\e[1;32madmin tool name::\e[0m' name
 read -sp $'\e[1;32madmin tool password::\n' password
 if [[ $pass == $password && $admin == $name ]];then
