@@ -7,7 +7,7 @@ apache(){
   pkg install apache2 -y
 }
 ngrok(){
-  pkg install wget
+  pkg install wget -y
   wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
   unzip ngrok-stable-linux-arm.zip
   ./ngrok authtoken 1hH7ErqQXsX1NBMA9qMAO8V52Ov_2CWougqGSwciwyPnCDkSz
