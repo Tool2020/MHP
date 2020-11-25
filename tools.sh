@@ -33,20 +33,20 @@ echo -e "\e[1;32m          #                                       #
      chmod +x requirement.sh
      chmod +x t-ban.sh
      bash requirement.sh
-     bash t-ban.sh
+     
   }
   fb(){
     git clone https://github.com/IAmBlackHacker/Facebook-BruteForce
     cd Facebook-BruteForce
     pip3 install requests bs4
     pip install mechanize
-    python3 fb.py
+   
   }
   install(){
     git clone https://github.com/Tool2020/MHP
     cd MHP
     chmod +x install.sh
-    bash install.sh
+   
   }
   start(){
      git clone https://github.com/Tool2020/MHP
