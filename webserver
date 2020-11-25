@@ -12,9 +12,13 @@ fi
 echo -e '\e[1;34m Start Web Server....'
 figlet web server
 echo -e "\e[1;32m
-(1)php
-(2)apache2
-(3)Ngrok
+[1]php
+
+[2]apache2
+
+[3]Ngrok
+
+[4]exit
 \e[0m"
 read -p $'\e[1;36mselect number::\e[0m' id
 case $id in
@@ -26,6 +30,8 @@ apachectl
 ;;
 3)
 ./ngrok http 4444;;
+4)
+exit;;
 *)
 echo -e "\n\e[31m Incorrect not selected number\e[0m" ;;
 esac
