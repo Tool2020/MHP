@@ -21,7 +21,11 @@ bash install.sh
 
 start web server
 
-bash webserver.sh
+bash webserver
+
+username and password
+max
+max
 
 
 
