@@ -55,7 +55,7 @@ echo -e "\e[1;32m          #                                       #
     cp webserver /$PREFIX/bin/
   }
   read -p $'Choose Number::' key
-  case key in
+  case $key in
     1)
       banner;;
     2)
@@ -65,6 +65,7 @@ echo -e "\e[1;32m          #                                       #
     4)
       start;;
     5)
+    echo -e "\e[1;31m Bye Bye"
       exit;;
     *)
     echo "your input not string!"
